@@ -1,0 +1,37 @@
+<!-- 3) შექმენით ფორმა, სადაც მომხმარებელს დაუსვამთ ნებისმიერ კითხვას(ამისთვის დაგჭირდებათ label-ი) 4 პასუხის გაცემის ვარიანტით.(ამ ვარიანტებისთვის გამოიყენეთ radio ტიპის input-ი).
+მომხმარებელს უნდა შეეძლოს მხოლოდ ერთი ვარიანტის არჩევა და ფორმის დადასტურება -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form>
+
+        <p>What is your favorite school subject?</p>
+
+        <input type="radio" id="math" name="subject" value="math" required>
+        <label for="math">Math</label>
+        <br>
+
+        <input type="radio" id="science" name="subject" value="science">
+        <label for="science">Science</label>
+        <br>
+
+        <input type="radio" id="english" name="subject" value="english">
+        <label for="english">English</label>
+        <br>
+
+        <input type="radio" id="history" name="subject" value="history">
+        <label for="history">History</label>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
