@@ -1,0 +1,37 @@
+<!-- 5)შექმენით საიტი სადაც გექნება სამი რენდომ ვიდეო, პირველი ვიდეო უნდა იყოს კონტროლების გარეშე, მეორე ვიდეო  კონტროლებით და ავტომატურად უნდა მეორდებოდეს, მესამე ვიდეო კი უნდა იყოს ასევე კონტროლებით, თავიდან უხმო იყოს და ავტომატურად ირთვებოდეს -->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>3 Random Video</title>
+</head>
+<body>
+
+    <h1>სამი განსხვავებული ვიდეო</h1>
+
+    <h3>ვიდეო 1 (კონტროლების გარეშე)</h3>
+    <video width="320">
+        <source src="video1.mp4" type="video/mp4">
+        თქვენი ბრაუზერი არ უჭერს მხარს video ტეგს.
+    </video>
+
+    <hr>
+
+    <h3>ვიდეო 2 (კონტროლებით + loop)</h3>
+    <video width="320" controls loop>
+        <source src="video2.mp4" type="video/mp4">
+        თქვენი ბრაუზერი არ უჭერს მხარს video ტეგს.
+    </video>
+
+    <hr>
+
+    <h3>ვიდეო 3 (muted + autoplay)</h3>
+    <video width="320" controls autoplay muted>
+        <source src="video3.mp4" type="video/mp4">
+        თქვენი ბრაუზერი არ უჭერს მხარს video ტეგს.
+    </video>
+
+</body>
+</html>
