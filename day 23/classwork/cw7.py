@@ -1,0 +1,10 @@
+# 7)მომხმარებელს შემოტანანინე წინადადება და სიმბოლო, საბოლოოდ იპოვე ამ წინადადებაში რომელ ინდექსებზე დგას ყველა ეს სიმბოლო (როგორც ჩვენ გავაკეთეთ)
+
+
+
+sentence = input("enter sentance: ")
+symbol = input("enter symbol: ")
+
+for i in range(len(sentence)):
+    if sentence[i] == symbol:
+        print(i)
